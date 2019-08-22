@@ -21,7 +21,7 @@ class ManageUsersController extends AppController
     {
         $this->Users = TableRegistry::getTableLocator()->get('Users');
     }
-    
+
     /**
      * Index method
      *

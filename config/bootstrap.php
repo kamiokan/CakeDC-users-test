@@ -202,5 +202,6 @@ Type::build('timestamp')
 //Inflector::rules('uninflected', ['dontinflectme']);
 //Inflector::rules('transliteration', ['/å/' => 'aa']);
 
+Configure::write('Users.config', ['users']);
 //Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]); // 3.6以前
 $this->addPlugin('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);

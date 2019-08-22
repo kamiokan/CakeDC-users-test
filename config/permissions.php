@@ -98,5 +98,10 @@ return [
             'controller' => 'ManageUsers',
             'action'     => '*',
         ],
+        [
+            'role'       => '*',
+            'controller' => 'AfterLogin',
+            'action'     => 'index',
+        ],
     ],
 ];
