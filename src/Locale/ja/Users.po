@@ -238,11 +238,11 @@ msgstr "ユーザ {0} はすでに有効化されています。"
 
 #: Mailer/UsersMailer.php:34
 msgid "Your account validation link"
-msgstr "【TTTオンライン】メールアドレス認証用のリンク送信"
+msgstr " 様【激安店】メールアドレス認証用のリンク送信"
 
 #: Mailer/UsersMailer.php:52
 msgid "{0}Your reset password link"
-msgstr "{0} 【TTTオンライン】パスワード再設定のリンク送信"
+msgstr "{0} 様 【激安店】パスワード再設定のリンク送信"
 
 #: Mailer/UsersMailer.php:75
 msgid "{0}Your social account validation link"
