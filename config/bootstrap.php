@@ -205,3 +205,4 @@ Type::build('timestamp')
 Configure::write('Users.config', ['users']);
 //Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]); // 3.6以前
 $this->addPlugin('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
+Configure::write('Auth.authenticate.Form.fields.username', 'email');
